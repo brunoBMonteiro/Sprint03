@@ -1,5 +1,7 @@
 package threads.semafaro;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class ThreadSemafaroExample implements Runnable{
 
     private CorSemafaro cor;
@@ -11,8 +13,12 @@ public class ThreadSemafaroExample implements Runnable{
         new Thread(this).start();
     }
 
-    public void run() {
+    public CorSemafaro getCor() {
 
+        return cor;
+    }
+
+    public void run() {
         while (!parar){
             try{
                 switch (this.cor){
@@ -50,7 +56,7 @@ public class ThreadSemafaroExample implements Runnable{
         notify();
     }
 
-    // enquanto a cor não mudar
+    // enquanto a cor não mudar, esperar
     public synchronized void esperaCorMudar(){
         while(!this.corMudou){
             try {
@@ -63,10 +69,8 @@ public class ThreadSemafaroExample implements Runnable{
     }
 
     public synchronized void desligarSemafaro(){
+
         this.parar = true;
     }
 
-    public CorSemafaro getCor() {
-        return cor;
-    }
 }

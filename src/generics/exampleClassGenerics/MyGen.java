@@ -1,13 +1,19 @@
 package generics.exampleClassGenerics;
 
 public class MyGen<T> {
-    T obj;
+
+    private T obj;
 
     void add(T obj){
-        this.obj=obj;
+        this.obj = obj;
     }
-
-    T get(){
+    public T get(){
         return obj;
     }
+
+    public <T> void fazAlgo(){
+        System.out.println("teste");
+    }
+
+
 }

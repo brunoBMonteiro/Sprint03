@@ -1,0 +1,13 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Ü†Ú›
+E
+java:S3740"/Provide the parametrized type for this generic.(Ü†Ú›
+O
+java:S1854"9Remove this useless assignment to local variable "lista".(≠ÜÑë
+@
+java:S1481"*Remove this unused "lista" local variable.(≠ÜÑë
+X	java:S125"<This block of commented-out lines of code should be removed.(Ü†Ú›8à«∆Ú‰/
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(≠ÜÑë
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(î∑Ë⁄

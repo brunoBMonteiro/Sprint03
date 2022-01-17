@@ -5,9 +5,11 @@ public class MyGen<T> {
     private T obj;
 
     void add(T obj){
+
         this.obj = obj;
     }
     public T get(){
+
         return obj;
     }
 

@@ -14,6 +14,7 @@ public class FlatMapTeste {
         devdojo.add(developers);
         devdojo.add(students);
 
+        // ForEach example
         for (List<String> people: devdojo) {
             for (String person: people) {
                 System.out.println(person);
@@ -23,6 +24,11 @@ public class FlatMapTeste {
         System.out.println();
         System.out.println("Example with flatMap");
         System.out.println();
-        devdojo.stream().flatMap(Collection::stream).forEach(System.out::println);
+
+        devdojo.stream()
+                .flatMap(Collection::stream)
+                .forEach(System.out::println);
+
+
     }
 }

@@ -1,4 +1,4 @@
-package threads.semafaro;
+package threads;
 
 public enum CorSemafaro {
 

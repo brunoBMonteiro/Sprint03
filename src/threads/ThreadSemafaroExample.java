@@ -1,6 +1,5 @@
-package threads.semafaro;
+package threads;
 
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ThreadSemafaroExample implements Runnable{
 
@@ -12,6 +11,7 @@ public class ThreadSemafaroExample implements Runnable{
         this.cor = CorSemafaro.VERMELHO;
         new Thread(this).start();
     }
+
 
     public CorSemafaro getCor() {
 

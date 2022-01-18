@@ -1,4 +1,4 @@
-package streams.introduction;
+package streams.withStreamsWithoutStreams;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

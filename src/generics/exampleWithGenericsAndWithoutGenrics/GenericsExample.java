@@ -10,7 +10,7 @@ public class GenericsExample {
         list.add("10");
 
         //Com genéricos, é necessário especificar o tipo de objeto que precisamos armazenar.
-        List<Integer> lista = new  ArrayList<Integer> ();
+        List<Integer> lista = new  ArrayList<> ();
         list.add(10);
         list.add("10"); // erro de tempo de compilação
 

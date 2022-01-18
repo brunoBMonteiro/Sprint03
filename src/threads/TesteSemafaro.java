@@ -1,4 +1,4 @@
-package threads.semafaro;
+package threads;
 
 public class TesteSemafaro {
     public static void main(String[] args) {

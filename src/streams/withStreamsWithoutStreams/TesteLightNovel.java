@@ -1,4 +1,4 @@
-package streams.teste;
+package streams.withStreamsWithoutStreams;
 
 import streams.withStreamsWithoutStreams.LightNovel;
 

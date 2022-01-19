@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 
 public class FlatMapExample2 {
     public static void main(String[] args) {
+        // Pegando as letras das palavras da Lista
         List<String> words = List.of("Gomu", "Gomu", "No", "Mi");
         String[] letters = words.get(0).split("");
         System.out.println(Arrays.toString(letters));

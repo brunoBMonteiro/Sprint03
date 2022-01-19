@@ -52,6 +52,7 @@ public class TesteLightNovel {
                 .collect(Collectors.toList());
         System.out.println(titles);
 
+        System.out.println(lightNovels);
 
         /*
         Stream<LightNovel> stream = lightNovels.stream();

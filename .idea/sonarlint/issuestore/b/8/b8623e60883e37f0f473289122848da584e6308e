@@ -1,0 +1,11 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(† òİ
+E
+java:S3740"/Provide the parametrized type for this generic.(† òİ
+T
+java:S1854"9Remove this useless assignment to local variable "lista".(ãÜ®†ıÿÿÿÿ
+E
+java:S1481"*Remove this unused "lista" local variable.(ãÜ®†ıÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(† òİ8ˆÇÆòä/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”·èÚ

@@ -1,0 +1,10 @@
+
+^
+java:S1854"IRemove this useless assignment to local variable "categoryLightNovelMap".(”Þ«q
+O
+java:S1481":Remove this unused "categoryLightNovelMap" local variable.(”Þ«q
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÁžÞ´
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ
+4
+java:S1640"Convert this Map to an EnumMap.(”Þ«q

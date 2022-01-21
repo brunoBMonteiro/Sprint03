@@ -1,0 +1,8 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(ß¶Ş¤
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ÑíÓÅ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(õşĞ…ÿÿÿÿÿ
+V	java:S125:"<This block of commented-out lines of code should be removed.(ÄÔ¥ğøÿÿÿÿ
+p
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(á«Õ8Ñ™›ç/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÆÍÚ
